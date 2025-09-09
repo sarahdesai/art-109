@@ -1,0 +1,67 @@
+/*
+COLOR PALETTE
+
+Space cadet #2D3047
+African Violet #9F84BD
+Amaranth Purple #A4243B
+Moss Green #96A13A
+Seasalt #F7F7F9
+*/
+
+/* GLOBAL STYLES 
+----------------------------------------*/
+
+body {
+    background: #F7F7F9;
+}
+/* links */
+ a {
+    color: #A4243B;
+}
+a:hover {
+    color: #9F84BD;
+    text-decoration: none;
+}
+footer a {
+    color: #9F84BD;
+}
+footer a:hover {
+    color: #A4243B;
+}
+.btn {
+    background: #96A13A;
+    color: #2D3047;
+    text-decoration: none;
+}
+/* HOME 
+----------------------------------------*/
+.home {
+    background: url(../images/bg-home-office-bookshelf.jpg) no-repeat;
+    background-size: cover;
+}
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9);
+}
+
+/* RESUME 
+----------------------------------------*/
+
+/* Profile 
+----------------------------------------*/
+
+/* Projects 
+----------------------------------------*/
+
+/* Work Experience 
+----------------------------------------*/
+
+/* Education 
+----------------------------------------*/
+
+
+/* FOOTER 
+----------------------------------------*/
+footer {
+    background: #2D3047;
+    color: #F7F7F9;
+}
