@@ -1,0 +1,39 @@
+.title {
+    font-family: cursive;
+    margin: 50px;
+}
+
+.square {
+    background: maroon;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 75px auto;
+    transition: all 1s;
+}
+
+.square:hover{
+    background-color: gray;
+    transform: rotate(30deg);
+}
+
+.button-div {
+    text-align: center;
+    margin: 75px 0px;
+}
+
+.button {
+    background-color: indianred;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: pink;
+    color: maroon;
+    transform: scale(1.5);
+}

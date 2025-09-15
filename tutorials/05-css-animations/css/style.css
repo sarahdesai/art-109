@@ -1,0 +1,118 @@
+body {
+    animation: change-color 5s infinite alternate;
+}
+
+@keyframes change-color {
+    0% {
+        background-color: pink;
+    }
+    50% {
+        background-color: rosybrown;
+    }
+    100% {
+        background-color: whitesmoke;
+    }
+}
+
+.title {
+    font-family: cursive;
+    text-align: center;
+    margin: 50px;
+    animation: skew 3s infinite alternate;
+}
+
+@keyframes skew {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+    100% {
+        transform: skew(10deg, 10deg);
+    }
+}
+
+.square {
+    background: maroon;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 75px auto;
+    transition: all 1s;
+}
+
+.square:hover {
+    background-color: gray;
+    transform: rotate(30deg);
+}
+
+.button-div {
+    text-align: center;
+    margin: 75px 0px;
+}
+
+.button {
+    background-color: indianred;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: pink;
+    color: maroon;
+    transform: scale(1.5);
+}
+
+.loading {
+    background-color: maroon;
+    color: #fff;
+    animation: stretch 5s infinite alternate;
+    width: 80vw;
+}
+
+@keyframes stretch {
+    0% {
+        width: 100px;
+    }
+    100% {
+        width: 100vw;
+    }
+}
+
+.circle {
+    background: slategray;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 100px auto;
+    transition: all 5s;
+}
+
+.circle:hover {
+    transform: scale(2);
+    background: palevioletred;
+}
+
+.bloom {
+    text-align: center;
+    background: rgb(194, 210, 169);
+    width: 50px;
+    height: 50px;
+    margin: 50px auto;
+    animation: grow 5s infinite alternate;
+}
+
+@keyframes grow {
+    0% {
+        color: rgb(255, 255, 255);
+        width: 50px;
+        height: 50px;
+    }
+    100% {
+        color: rgb(21, 95, 21);
+        width: 100px;
+        height: 100px;
+    }
+}
