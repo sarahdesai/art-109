@@ -1,0 +1,161 @@
+/* global */
+html {
+    font-size: 62.5%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+     color: lightslategray;
+}
+
+a:hover {
+    color: black;
+}
+
+/* header */
+h1 {
+    font-family: "Mynerve", cursive;
+    font-size: 4.0rem;
+}
+
+/* body */
+p {
+    font-family: "Cutive Mono", monospace;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-family: "Cutive Mono", monospace;
+    font-size: 1.4rem;
+}
+
+/* breathe */ 
+.pop-up-1 {
+    position: relative;
+    left: -200px;
+    margin: 0 auto;
+    opacity: 1;
+    visibility: hidden;
+    animation: myPopUp1 0.25s forwards;
+    animation-delay: 2s;
+}
+
+@keyframes myPopUp1 {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+.pop-up-2 {
+    position: relative;
+    left: 100px;
+    margin: 0 auto;
+    opacity: 1;
+    visibility: hidden;
+    animation: myPopUp2 0.25s forwards;
+    animation-delay: 5s;
+}
+
+@keyframes myPopUp2 {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+.pop-up-3 {
+    position: relative;
+    left: 50px;
+    margin: 0 auto;
+    opacity: 1;
+    visibility: hidden;
+    animation: myPopUp3 0.25s forwards;
+    animation-delay: 4.5s;
+}
+
+@keyframes myPopUp3 {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+.pop-up-4 {
+    position: relative;
+    left: -200px;
+    margin: 0 auto;
+    opacity: 1;
+    visibility: hidden;
+    animation: myPopUp4 1s forwards;
+    animation-delay: 2.5s;
+}
+
+@keyframes myPopUp4 {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+.pop-up-5 {
+    position: relative;
+    left: -150px;
+    margin: 0 auto;
+    opacity: 1;
+    visibility: hidden;
+    animation: myPopUp5 0.25s forwards;
+    animation-delay: 4s;
+}
+
+@keyframes myPopUp5 {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+.pop-up-6 {
+    position: relative;
+    left: 75px;
+    margin: 0 auto;
+    opacity: 1;
+    visibility: hidden;
+    animation: myPopUp6 0.25s forwards;
+    animation-delay: 5.5s;
+}
+
+@keyframes myPopUp6 {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+.pop-up-7 {
+    position: relative;
+    left: -250px;
+    margin: 0 auto;
+    opacity: 1;
+    visibility: hidden;
+    animation: myPopUp7 0.25s forwards;
+    animation-delay: 3s;
+}
+
+@keyframes myPopUp7 {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+.pop-up-8 {
+    position: relative;
+    left: 300;
+    margin: 0 auto;
+    opacity: 1;
+    visibility: hidden;
+    animation: myPopUp8 0.25s forwards;
+    animation-delay: 3.5s;
+}
+
+@keyframes myPopUp8 {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity: 1; visibility: visible;}
+}
+
+/* footer */ 
+
+h3 {
+    font-family: "Cutive Mono", monospace, italic;
+    font-size: 1.2rem;
+    ;
+}
