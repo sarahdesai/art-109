@@ -47,6 +47,9 @@ p {
     line-height: normal;
 }
 
+.italics {
+    font-style: italic;
+}
 .time {
     color: rgb(80, 80, 80);
     font-weight: 600;
